@@ -1,0 +1,75 @@
+@chrset = "utf-8";
+/*============================================
+メイン
+============================================*/
+h1{
+  height:50px;
+  margin: 0px 0px 0px 0px;
+  font-size:56px;				/*フォントのサイズ*/
+  color:#ffffff;				/*文字色を濃いめのグレーにする*/
+  text-align:center;				/*テキストをセンター揃えにする*/
+  letter-spacing: 30px;
+}
+h3{
+  margin:0px;
+}
+/*============================================
+Flex Box
+============================================*/
+.store {
+    padding:  10px;             /* 余白指定 */
+    display: flex;              /* フレックスボックスにする */
+    align-items:stretch;        /* 縦の位置指定 */
+    justify-content: center;
+}
+
+.store1 {
+    color:  #fff;               /* 文字色 */
+    margin:  10px 50px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+    text-align:  center;        /* 文字中央揃え */
+}
+
+.store2 {
+    color:  #fff;               /* 文字色 */
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+    display: flex;              /* フレックスボックスにする */
+    text-align: space-around;        /* 文字中央揃え */
+}
+
+.store3 {
+    color:  #fff;               /* 文字色 */
+    margin:  10px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+    display: flex;              /* フレックスボックスにする */
+    text-align:  center;        /* 文字中央揃え */
+    justify-content: center;
+}
+
+img {
+    width: 100%;                /* 画像サイズ指定 */
+}
+
+/*.store1:nth-child(1) {
+    background-color:  #2196F3; /* 背景色指定 */
+}*/
+
+/*.store1:nth-child(2) {
+    background-color:  #4CAF50; /* 背景色指定 */
+}*/
+
+/*.store1:nth-child(3) {
+    background-color: #3F51B5; /* 背景色指定 */
+}*/
+
+/*.store1:nth-child(4) {
+    background-color:  #00BCD4; /* 背景色指定 */
+}*/
+
+/*.store1:nth-child(5) {
+    background-color:  #000CD4; /* 背景色指定 */
+}*/
+/*============================================
+画像
+============================================*/

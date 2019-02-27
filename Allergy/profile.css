@@ -1,0 +1,77 @@
+@chrset = "utf-8";
+/*============================================
+メイン
+============================================*/
+div#name{
+  height:30px;
+}
+h1{
+  text-align: center;
+  color: #ffffff;
+  float:center;
+}
+
+h2{
+  height:150px;
+  text-align: center;
+  color: #ffffff;
+  letter-spacing: 18px;
+}
+h4{
+  font-size: 20px;
+  color: #ffffff;
+}
+div#age{
+  width:1000px; height:100px;
+  list-style-type:none;			/*リストマーカー無しにする*/
+  display: inline;
+  float:left;
+}
+
+ul#sex{
+   width:960px; height:100px;			/*メインメニュー部分の幅と高さ*/
+   margin:0px;				/*上下マージン0px、左右マージン20px*/
+}
+
+#sex li{
+  padding: 0px 50px 0px 0px;
+   list-style-type:none;			/*リストマーカー無しにする*/
+   display:inline;				/*リスト項目をインライン(横並び)表示にする*/
+   float:right;					/*リスト項目を横に並べる*/
+}
+
+
+/*============================================
+Flex Box
+============================================*/
+.allergy {
+    display: flex;              /* フレックスボックスにする */
+    align-items:stretch;        /* 縦の位置指定 */
+    justify-content: center;
+}
+
+.allergy1 {
+    color:  #fff;               /* 文字色 */
+    margin:  15px;              /* 外側の余白 */
+    border-radius:  5px;        /* 角丸指定 */
+    text-align:  center;        /* 文字中央揃え */
+}
+
+.allergy2 {
+    color:  #fff;               /* 文字色 */
+    border-radius:  5px;        /* 角丸指定 */
+    display: flex;              /* フレックスボックスにする */
+    text-align: space-around;        /* 文字中央揃え */
+}
+
+.allergy3 {
+    color:  #fff;               /* 文字色 */
+    border-radius:  5px;        /* 角丸指定 */
+    display: flex;              /* フレックスボックスにする */
+    text-align:  center;        /* 文字中央揃え */
+    justify-content: center;
+}
+
+img {
+    width: 90%; height:90%;                /* 画像サイズ指定 */
+}
