@@ -10,7 +10,8 @@ h1{
   text-align:center;				/*テキストをセンター揃えにする*/
   letter-spacing: 30px;
 }
-h3{
+h5{
+  width:230px;
   margin:0px;
 }
 /*============================================
@@ -25,6 +26,7 @@ Flex Box
 
 .store1 {
     color:  #fff;               /* 文字色 */
+    width:230px;
     margin:  10px 50px;              /* 外側の余白 */
     border-radius:  5px;        /* 角丸指定 */
     text-align:  center;        /* 文字中央揃え */
