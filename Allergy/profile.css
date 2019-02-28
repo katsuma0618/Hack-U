@@ -6,9 +6,11 @@ div#name{
   height:30px;
 }
 h1{
+  font-size: 80px;
   text-align: center;
   color: #ffffff;
   float:center;
+  font-family:"ヒラギノ丸ゴ";		/*フォントの種類をゴシック系にする*/
 }
 
 h2{
@@ -16,10 +18,12 @@ h2{
   text-align: center;
   color: #ffffff;
   letter-spacing: 18px;
+  font-family:"ヒラギノ丸ゴ";		/*フォントの種類をゴシック系にする*/
 }
 h4{
   font-size: 20px;
   color: #ffffff;
+  font-family:"ヒラギノ丸ゴ";		/*フォントの種類をゴシック系にする*/
 }
 div#age{
   width:1000px; height:100px;
@@ -48,6 +52,7 @@ Flex Box
     display: flex;              /* フレックスボックスにする */
     align-items:stretch;        /* 縦の位置指定 */
     justify-content: center;
+    list-style-type:none;			/*リストマーカー無しにする*/
 }
 
 .allergy1 {
@@ -62,6 +67,7 @@ Flex Box
     border-radius:  5px;        /* 角丸指定 */
     display: flex;              /* フレックスボックスにする */
     text-align: space-around;        /* 文字中央揃え */
+    list-style-type:none;			/*リストマーカー無しにする*/
 }
 
 .allergy3 {
@@ -70,6 +76,7 @@ Flex Box
     display: flex;              /* フレックスボックスにする */
     text-align:  center;        /* 文字中央揃え */
     justify-content: center;
+    list-style-type:none;			/*リストマーカー無しにする*/
 }
 
 img {

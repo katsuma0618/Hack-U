@@ -2,6 +2,15 @@
 /*======================================
 全般的なスタイル
 ======================================*/
+h1{
+  margin-top: 200px;
+  margin-bottom: 50px;
+  font-size: 110px;
+  text-align: center;
+  font-family:"Arial Rounded MT Bold";		/*フォントの種類をゴシック系にする*/
+  color:#ffffff;
+  letter-spacing: 28px;
+}
 h2{
    width:1000px; height:30px;			/*幅と高さ*/
    padding:0px 0px 0px 50px;			/*パディング*/
@@ -9,6 +18,15 @@ h2{
    color:#ffffff;				/*文字色*/
 }
 
+h5{
+  padding-right: 80px;
+  margin-bottom: 200px;
+  font-size: 36px;
+  text-align: right;
+  font-family:"Arial Rounded MT Bold";		/*フォントの種類をゴシック系にする*/
+  color:#ffffff;
+  letter-spacing: 8px;
+}
 p{
    width:1000px; height:10px;			/*幅と高さ*/
    padding:0px 0px 0px 50px;			/*パディング*/

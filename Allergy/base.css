@@ -9,7 +9,7 @@
 body{
    padding:0px 5px;					/*マージン・パディング*/
    font-size:95%;					/*フォントサイズを95%にする*/
-   font-family:"筑紫A丸ゴシック";		/*フォントの種類をゴシック系にする*/
+   font-family:"ヒラギノ丸ゴ";		/*フォントの種類をゴシック系にする*/
    line-height:1.5;					/*行の高さを1.5倍にする*/
    color:#333333;				/*文字色*/
 }
@@ -21,26 +21,27 @@ div#pagebody{
 ヘッダー
 ======================================*/
 div#header{
-    width:1200px; height:80px;
+    width:1200px; height:70px;
 }
 /*======================================
 (左カラム)
 ======================================*/
 div#menu{
-   width:600px;	height:90px;			/*幅の指定*/
+   width:600px;	height:70px;			/*幅の指定*/
    float:left;					/*サブメニューのカラムを左寄せにする*/
 }
 
 div#menu li{
-   padding:25px 35px 15px 45px;			/*上パディング（内側余白）*/
+   padding:15px 35px 15px 45px;			/*上パディング（内側余白）*/
    font-size:32px;				/*フォントのサイズ*/
    list-style-type:none;			/*リストマーカー無しにする*/
    display:inline;				/*リスト項目をインライン(横並び)表示にする*/
    float:left;					/*リスト項目を横に並べる*/
+   font-family:"Arial Rounded MT Bold";		/*フォントの種類をゴシック系にする*/
 }
 
 div#menu li a{
-   width:100px; height:90px;			/*幅と高さ*/
+   width:100px; height:80px;			/*幅と高さ*/
    text-align:center;				/*テキストをセンター揃えにする*/
    text-decoration:none;			/*リンク部分の下線を無しにする*/
    color:#333333;				/*文字色*/
@@ -55,12 +56,12 @@ div#menu ul li :first-child a{
 (右カラム)
 ======================================*/
 div#info{
-   width:600px; height:90px;			/*幅の指定*/
+   width:600px; height:70px;			/*幅の指定*/
    float:left;					/*サブメニューのカラムを左寄せにする*/
 }
 
 div#info li{
-   padding:25px 45px 15px 35px;			/*上パディング（内側余白）*/
+   padding:15px 45px 15px 35px;			/*上パディング（内側余白）*/
    font-size:32px;				/*フォントのサイズ*/
    list-style-type:none;			/*リストマーカー無しにする*/
    display:inline;				/*リスト項目をインライン(横並び)表示にする*/
@@ -68,7 +69,7 @@ div#info li{
 }
 
 div#info li a{
-   width:100px; height:90px;			/*幅と高さ*/
+   width:100px; height:80px;			/*幅と高さ*/
    text-align:center;				/*テキストを右揃えにする*/
    text-decoration:none;			/*リンク部分の下線を無しにする*/
    color:#333333;				/*文字色*/
@@ -101,7 +102,7 @@ div#main{
 }
 
 .home-icons home{
-  padding-top: 5px; 
+  padding-top: 5px;
   color:#333333;
   font-size:48px;				/*フォントのサイズ*/
 }

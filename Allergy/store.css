@@ -9,11 +9,13 @@ h1{
   color:#ffffff;				/*文字色を濃いめのグレーにする*/
   text-align:center;				/*テキストをセンター揃えにする*/
   letter-spacing: 30px;
+  font-family:"Arial Rounded MT Bold";		/*フォントの種類をゴシック系にする*/
 }
 h5{
   width:230px;
   margin:0px;
   color:#ffffff;
+  font-family:"ヒラギノ丸ゴ";		/*フォントの種類をゴシック系にする*/
 }
 /*============================================
 Flex Box
@@ -28,14 +30,14 @@ Flex Box
 .store1 {
     color:  #fff;               /* 文字色 */
     width:230px;
-    margin:  10px 50px;              /* 外側の余白 */
+    margin:  0px 50px;              /* 外側の余白 */
+    padding-top: 10px;
     border-radius:  5px;        /* 角丸指定 */
     text-align:  center;        /* 文字中央揃え */
 }
 
 .store2 {
     color:  #fff;               /* 文字色 */
-    margin:  10px;              /* 外側の余白 */
     border-radius:  5px;        /* 角丸指定 */
     display: flex;              /* フレックスボックスにする */
     text-align: space-around;        /* 文字中央揃え */
@@ -43,7 +45,6 @@ Flex Box
 
 .store3 {
     color:  #fff;               /* 文字色 */
-    margin:  10px;              /* 外側の余白 */
     border-radius:  5px;        /* 角丸指定 */
     display: flex;              /* フレックスボックスにする */
     text-align:  center;        /* 文字中央揃え */
